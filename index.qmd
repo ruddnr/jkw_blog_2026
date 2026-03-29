@@ -1,0 +1,41 @@
+---
+title: "JKW 투자 인사이트"
+subtitle: "AI 퀀트 운용본부의 일일 시장 분석, 투자 전략, 리서치 요약"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  page-size: 12
+page-layout: full
+---
+
+::: {.kpi-container}
+::: {.kpi-card}
+[일일 리포트]{.kpi-label}
+[매일 업데이트]{.kpi-value style="font-size:1.2rem;"}
+[시장 동향 & 지표]{.kpi-change}
+:::
+
+::: {.kpi-card}
+[투자 전략]{.kpi-label}
+[퀀트 분석]{.kpi-value style="font-size:1.2rem;"}
+[팩터 & 모멘텀]{.kpi-change}
+:::
+
+::: {.kpi-card}
+[리서치 요약]{.kpi-label}
+[증권사 리포트]{.kpi-value style="font-size:1.2rem;"}
+[핵심 내용 정리]{.kpi-change}
+:::
+
+::: {.kpi-card}
+[텔레그램]{.kpi-label}
+[실시간 채널]{.kpi-value style="font-size:1.2rem;"}
+[주요 소식 요약]{.kpi-change}
+:::
+:::

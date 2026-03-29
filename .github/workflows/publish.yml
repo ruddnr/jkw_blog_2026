@@ -1,0 +1,99 @@
+name: 자동 포스트 생성 & 배포
+
+on:
+  push:
+    branches: [main]
+
+  # ───────────────────────────────────────────
+  # 매일 오전 7시(KST) = UTC 22:00 자동 실행
+  # 주말 제외하려면: '0 22 * * 0-4' (일~목 UTC = 월~금 KST)
+  # ───────────────────────────────────────────
+  schedule:
+    - cron: '0 22 * * 0-4'
+
+  # 수동 실행 (GitHub UI에서 버튼 클릭으로 실행 가능)
+  workflow_dispatch:
+    inputs:
+      post_type:
+        description: '생성할 포스트 유형'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - daily
+          - strategy
+          - research
+          - telegram
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. 리포지토리 체크아웃 ──
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Python 설정 ──
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      # ── 3. 포스트 자동 생성 ──
+      - name: Generate posts
+        env:
+          # 필요 시 GitHub Secrets에서 가져올 환경변수들
+          # ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          # TELEGRAM_CHANNEL_IDS: ${{ secrets.TELEGRAM_CHANNEL_IDS }}
+          POST_TYPE: ${{ github.event.inputs.post_type || 'all' }}
+        run: |
+          echo "📝 포스트 생성 시작: ${POST_TYPE}"
+          python scripts/generate_post.py --type "${POST_TYPE}"
+
+      # ── 4. 생성된 포스트 커밋 & 푸시 ──
+      - name: Commit and push new posts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 변경사항이 있을 때만 커밋
+          git add posts/
+          if git diff --staged --quiet; then
+            echo "✅ 변경사항 없음 - 커밋 건너뜀"
+          else
+            DATE_KST=$(TZ=Asia/Seoul date +%Y-%m-%d)
+            git commit -m "📊 자동 포스트 생성: ${DATE_KST}"
+            git push
+            echo "✅ 새 포스트 커밋 & 푸시 완료"
+          fi
+
+      # ── 5. Quarto 설정 & 빌드 ──
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto project
+        uses: quarto-dev/quarto-actions/render@v2
+
+      # ── 6. GitHub Pages 배포 ──
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages

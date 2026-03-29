@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "JKW 투자 인사이트"
+  description: "AI 퀀트 운용본부의 일일 시장 분석과 투자 전략"
+  site-url: https://ruddnr.github.io/jkw_blog_2026
+
+  navbar:
+    background: "#0d1117"
+    foreground: "#e6edf3"
+    logo-alt: "JKW 투자 인사이트"
+    left:
+      - text: "홈"
+        href: index.qmd
+      - text: "일일 리포트"
+        href: categories.qmd
+      - text: "투자 전략"
+        href: categories.qmd
+      - text: "리서치"
+        href: categories.qmd
+      - text: "소개"
+        href: about.qmd
+    tools:
+      - icon: github
+        href: https://github.com/ruddnr/jkw_blog_2026
+
+  page-footer:
+    left: |
+      &copy; 2026 JKW 투자 인사이트 · AI 퀀트 운용본부
+    right: |
+      Powered by [Quarto](https://quarto.org)
+    background: "#0d1117"
+    foreground: "#8b949e"
+
+  search:
+    location: navbar
+    type: textbox
+
+format:
+  html:
+    theme:
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    highlight-style: github-dark
+    fontsize: 0.95em
+    linestretch: 1.6
+
+execute:
+  freeze: auto

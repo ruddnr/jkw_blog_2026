@@ -1,0 +1,13 @@
+/.quarto/
+/_site/
+/_freeze/
+*.html
+!docs/**
+.DS_Store
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+__pycache__/
+*.pyc
+.env

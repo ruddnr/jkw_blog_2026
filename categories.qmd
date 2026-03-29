@@ -1,0 +1,11 @@
+---
+title: "카테고리"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 20
+---
