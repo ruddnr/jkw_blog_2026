@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>JKW 투자 인사이트</title>
+<link>https://ruddnr.github.io/jkw_blog_2026/</link>
+<atom:link href="https://ruddnr.github.io/jkw_blog_2026/index.xml" rel="self" type="application/rss+xml"/>
+<description>AI 퀀트 운용본부의 일일 시장 분석과 투자 전략</description>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Mon, 30 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>일일 시장 리포트 | 2026.03.30 (월)</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-30-daily-report/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="주요-지수-현황" class="level2">
+<h2 class="anchored" data-anchor-id="주요-지수-현황">주요 지수 현황</h2>
+<div class="kpi-container">
+<div class="kpi-card">
+<p><span class="kpi-label">KOSPI</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">KOSDAQ</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">S&amp;P 500</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">원/달러</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="시장-요약" class="level2">
+<h2 class="anchored" data-anchor-id="시장-요약">시장 요약</h2>
+<p>시장 데이터가 아직 연결되지 않았습니다. <code>scripts/generate_post.py</code>에서 데이터 소스를 설정해주세요.</p>
+</section>
+<section id="섹터별-등락률" class="level2">
+<h2 class="anchored" data-anchor-id="섹터별-등락률">섹터별 등락률</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">섹터</th>
+<th style="text-align: center;">등락률</th>
+<th style="text-align: left;">비고</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: left;">데이터 연결 필요</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="주요-이벤트" class="level2">
+<h2 class="anchored" data-anchor-id="주요-이벤트">주요 이벤트</h2>
+<ul>
+<li>데이터 소스 연결 후 자동 생성됩니다.</li>
+</ul>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>일일 리포트</category>
+  <category>시장분석</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-30-daily-report/</guid>
+  <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-30-daily-report" medium="image"/>
+</item>
+<item>
+  <title>리서치 요약 | AI 반도체 밸류체인 전망 (삼성증권)</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-research-summary/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="리포트-개요" class="level2">
+<h2 class="anchored" data-anchor-id="리포트-개요">리포트 개요</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">항목</th>
+<th style="text-align: left;">내용</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>발행사</strong></td>
+<td style="text-align: left;">삼성증권 리서치센터</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>제목</strong></td>
+<td style="text-align: left;">2026년 AI 반도체 밸류체인 투자전략</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>발행일</strong></td>
+<td style="text-align: left;">2026.03.28</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>애널리스트</strong></td>
+<td style="text-align: left;">(예시) 김OO, 이OO</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>투자의견</strong></td>
+<td style="text-align: left;">비중확대 (Overweight)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="핵심-요약" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-요약">핵심 요약</h2>
+<section id="hbm4-사이클-본격화" class="level3">
+<h3 class="anchored" data-anchor-id="hbm4-사이클-본격화">1. HBM4 사이클 본격화</h3>
+<p>삼성증권은 2026년 하반기부터 HBM4 양산이 본격화되면서, AI 메모리 반도체 시장이 <strong>전년 대비 45% 성장</strong>할 것으로 전망했습니다.</p>
+<div class="kpi-container">
+<div class="kpi-card">
+<p><span class="kpi-label">HBM 시장 규모</span> <span class="kpi-value">$38.5B</span> <span class="kpi-change positive">+45% YoY</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">AI 서버 출하량</span> <span class="kpi-value">2.1M대</span> <span class="kpi-change positive">+62% YoY</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">HBM4 비중</span> <span class="kpi-value">35%</span> <span class="kpi-change">2026H2 기준</span></p>
+</div>
+</div>
+</section>
+<section id="밸류체인별-수혜-강도" class="level3">
+<h3 class="anchored" data-anchor-id="밸류체인별-수혜-강도">2. 밸류체인별 수혜 강도</h3>
+<p>리포트는 AI 반도체 밸류체인을 4단계로 분류하고, 각 단계별 수혜 강도를 분석했습니다:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">밸류체인 단계</th>
+<th style="text-align: center;">수혜 강도</th>
+<th style="text-align: left;">주요 기업</th>
+<th style="text-align: center;">목표주가 상향</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">HBM 제조</td>
+<td style="text-align: center;">★★★★★</td>
+<td style="text-align: left;">SK하이닉스, 삼성전자</td>
+<td style="text-align: center;"><span class="positive">+15~20%</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">후공정 (패키징)</td>
+<td style="text-align: center;">★★★★☆</td>
+<td style="text-align: left;">한미반도체, ISC</td>
+<td style="text-align: center;"><span class="positive">+12~18%</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">검사장비</td>
+<td style="text-align: center;">★★★☆☆</td>
+<td style="text-align: left;">리노공업, 오킨스전자</td>
+<td style="text-align: center;"><span class="positive">+8~12%</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">소재</td>
+<td style="text-align: center;">★★★☆☆</td>
+<td style="text-align: left;">솔브레인, 동진쎄미켐</td>
+<td style="text-align: center;"><span class="positive">+5~10%</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sk하이닉스-심층-분석" class="level3">
+<h3 class="anchored" data-anchor-id="sk하이닉스-심층-분석">3. SK하이닉스 심층 분석</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>SK하이닉스 투자 포인트
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>목표주가</strong>: 280,000원 → 320,000원 (상향)</li>
+<li><strong>투자의견</strong>: 매수 유지</li>
+<li>HBM4 선점 효과로 2026E 영업이익 <strong>25.8조원</strong> 전망 (+32% YoY)</li>
+<li>글로벌 HBM 점유율 50% 이상 유지 전망</li>
+<li>NAND 사업부 흑자 전환으로 전사 수익성 개선</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="리스크-요인" class="level3">
+<h3 class="anchored" data-anchor-id="리스크-요인">4. 리스크 요인</h3>
+<p>리포트가 제시한 주요 리스크:</p>
+<ul>
+<li><strong>미·중 기술 갈등 심화</strong>: 대중국 반도체 수출 규제 강화 시 수요 감소 가능</li>
+<li><strong>AI 투자 과열 우려</strong>: 빅테크 CAPEX 감속 가능성</li>
+<li><strong>메모리 가격 변동성</strong>: HBM 외 범용 DRAM/NAND 가격 약세 지속</li>
+</ul>
+</section>
+</section>
+<section id="투자-시사점" class="level2">
+<h2 class="anchored" data-anchor-id="투자-시사점">투자 시사점</h2>
+<blockquote class="blockquote">
+<p>이 리포트의 핵심 메시지는 <strong>“HBM4 사이클에서 한국 반도체 밸류체인의 수혜는 확대될 것”</strong>이라는 점입니다. 다만 밸류에이션이 이미 상당 부분 반영되어 있어, <strong>후공정·소재 등 상대적 저평가 영역</strong>으로의 확장이 추가 알파의 원천이 될 수 있습니다.</p>
+</blockquote>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>면책사항
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>본 포스트는 삼성증권 리서치센터의 리포트를 요약한 것이며, 투자 추천이 아닙니다. 모든 투자 판단과 책임은 투자자 본인에게 있습니다.</p>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>리서치 요약</category>
+  <category>반도체</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-research-summary/</guid>
+  <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-research-summary" medium="image"/>
+</item>
+<item>
+  <title>텔레그램 요약 | 2026.03.29</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-telegram/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="텔레그램-채널-요약" class="level2">
+<h2 class="anchored" data-anchor-id="텔레그램-채널-요약">텔레그램 채널 요약</h2>
+<p>텔레그램 데이터가 아직 연결되지 않았습니다.</p>
+<p><code>scripts/generate_post.py</code>의 <code>generate_telegram()</code> 함수에서 텔레그램 봇을 설정해주세요.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>구현 가이드
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><a href="https://t.me/botfather">BotFather</a>에서 봇 생성 → 토큰 발급</li>
+<li>GitHub Secrets에 <code>TELEGRAM_BOT_TOKEN</code>, <code>TELEGRAM_CHANNEL_IDS</code> 저장</li>
+<li><code>telethon</code> 또는 <code>python-telegram-bot</code>으로 메시지 수집</li>
+<li>Claude API로 요약 생성</li>
+</ol>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>면책사항
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>텔레그램 요약</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-telegram/</guid>
+  <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-telegram" medium="image"/>
+</item>
+<item>
+  <title>퀀트 전략 | 모멘텀 팩터 분석 (2026년 1분기)</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-investment-strategy/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="요약" class="level2">
+<h2 class="anchored" data-anchor-id="요약">요약</h2>
+<p>2026년 1분기 국내 주식시장에서 모멘텀 팩터는 <strong>+4.2%</strong> 초과수익을 기록하며 가치(Value) 팩터 대비 우위를 보였습니다. 특히 12개월 가격 모멘텀과 이익 수정(Earnings Revision) 모멘텀이 동시에 작동하는 종목군에서 알파가 집중되었습니다.</p>
+</section>
+<section id="팩터-성과-요약-1분기" class="level2">
+<h2 class="anchored" data-anchor-id="팩터-성과-요약-1분기">팩터 성과 요약 (1분기)</h2>
+<div class="kpi-container">
+<div class="kpi-card">
+<p><span class="kpi-label">모멘텀</span> <span class="kpi-value">+4.2%</span> <span class="kpi-change positive">vs.&nbsp;KOSPI</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">가치</span> <span class="kpi-value">+1.8%</span> <span class="kpi-change positive">vs.&nbsp;KOSPI</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">퀄리티</span> <span class="kpi-value">+3.1%</span> <span class="kpi-change positive">vs.&nbsp;KOSPI</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">저변동성</span> <span class="kpi-value">-0.5%</span> <span class="kpi-change negative">vs.&nbsp;KOSPI</span></p>
+</div>
+</div>
+</section>
+<section id="모멘텀-팩터-상세-분석" class="level2">
+<h2 class="anchored" data-anchor-id="모멘텀-팩터-상세-분석">모멘텀 팩터 상세 분석</h2>
+<section id="가격-모멘텀-12m-1m" class="level3">
+<h3 class="anchored" data-anchor-id="가격-모멘텀-12m-1m">가격 모멘텀 (12M-1M)</h3>
+<p>과거 12개월 수익률에서 최근 1개월을 제외한 가격 모멘텀 기준으로, 상위 20% 포트폴리오는 <strong>연환산 18.3% 수익률</strong>을 기록했습니다.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">분위</th>
+<th style="text-align: center;">1분기 수익률</th>
+<th style="text-align: center;">연환산 수익률</th>
+<th style="text-align: center;">샤프비율</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Q1 (최상위)</td>
+<td style="text-align: center;"><span class="positive">+8.5%</span></td>
+<td style="text-align: center;"><span class="positive">+18.3%</span></td>
+<td style="text-align: center;">1.42</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Q2</td>
+<td style="text-align: center;"><span class="positive">+5.2%</span></td>
+<td style="text-align: center;"><span class="positive">+12.1%</span></td>
+<td style="text-align: center;">0.95</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Q3</td>
+<td style="text-align: center;"><span class="positive">+3.8%</span></td>
+<td style="text-align: center;"><span class="positive">+8.7%</span></td>
+<td style="text-align: center;">0.72</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Q4</td>
+<td style="text-align: center;"><span class="positive">+1.2%</span></td>
+<td style="text-align: center;"><span class="positive">+3.4%</span></td>
+<td style="text-align: center;">0.28</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Q5 (최하위)</td>
+<td style="text-align: center;"><span class="negative">-2.1%</span></td>
+<td style="text-align: center;"><span class="negative">-4.8%</span></td>
+<td style="text-align: center;">-0.35</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="이익-수정-모멘텀" class="level3">
+<h3 class="anchored" data-anchor-id="이익-수정-모멘텀">이익 수정 모멘텀</h3>
+<p>애널리스트의 이익 추정치 변경률(3개월 기준)로 측정한 이익 수정 모멘텀 역시 유의미한 스프레드를 보였습니다. 상향 조정 종목군의 1분기 초과수익은 <strong>+5.8%</strong>에 달했습니다.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>핵심 인사이트
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>가격 모멘텀과 이익 수정 모멘텀이 <strong>동시에 상위 분위</strong>에 속하는 종목(교집합)은 1분기에 <strong>+11.2%</strong> 수익률을 기록했습니다. 이는 단일 팩터 대비 현저히 우수한 성과입니다.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="분기-포트폴리오-시사점" class="level2">
+<h2 class="anchored" data-anchor-id="분기-포트폴리오-시사점">2분기 포트폴리오 시사점</h2>
+<section id="유망-섹터" class="level3">
+<h3 class="anchored" data-anchor-id="유망-섹터">유망 섹터</h3>
+<p>1분기 모멘텀과 이익 수정이 동시에 양호한 섹터:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">섹터</th>
+<th style="text-align: center;">가격 모멘텀</th>
+<th style="text-align: center;">이익 수정</th>
+<th style="text-align: center;">복합 스코어</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AI/반도체</td>
+<td style="text-align: center;"><span class="positive">상위 10%</span></td>
+<td style="text-align: center;"><span class="positive">상위 5%</span></td>
+<td style="text-align: center;">★★★★★</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">방산</td>
+<td style="text-align: center;"><span class="positive">상위 15%</span></td>
+<td style="text-align: center;"><span class="positive">상위 10%</span></td>
+<td style="text-align: center;">★★★★☆</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">조선</td>
+<td style="text-align: center;"><span class="positive">상위 20%</span></td>
+<td style="text-align: center;"><span class="positive">상위 15%</span></td>
+<td style="text-align: center;">★★★★☆</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">유틸리티</td>
+<td style="text-align: center;"><span class="positive">상위 30%</span></td>
+<td style="text-align: center;"><span class="positive">상위 25%</span></td>
+<td style="text-align: center;">★★★☆☆</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="리스크-요인" class="level3">
+<h3 class="anchored" data-anchor-id="리스크-요인">리스크 요인</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>주의사항
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>모멘텀 팩터는 <strong>추세 반전 시</strong> 급격한 언더퍼폼 가능</li>
+<li>2분기 FOMC 일정(5월, 6월)에 따른 금리 정책 변화에 민감</li>
+<li>현재 모멘텀 팩터의 <strong>밸류에이션 프리미엄</strong>이 역사적 상위 75% 수준</li>
+</ul>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>2분기에는 모멘텀 단일 팩터보다 <strong>모멘텀+퀄리티 복합 전략</strong>으로 방어력을 보강하는 것을 권장합니다. 이익 성장의 지속가능성을 함께 검증하는 것이 핵심입니다.</p>
+</blockquote>
+
+
+<!-- -->
+
+</section>
+</section>
+
+ ]]></description>
+  <category>투자 전략</category>
+  <category>퀀트분석</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-investment-strategy/</guid>
+  <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-investment-strategy" medium="image"/>
+</item>
+<item>
+  <title>투자 전략 | 주간 퀀트 시그널 (2026.03.29)</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-strategy/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="요약" class="level2">
+<h2 class="anchored" data-anchor-id="요약">요약</h2>
+<p>투자 전략 데이터가 아직 연결되지 않았습니다.</p>
+<p><code>scripts/generate_post.py</code>의 <code>generate_strategy()</code> 함수에서 분석 로직을 구현해주세요.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>구현 가이드
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><code>pykrx</code> 또는 자체 DB에서 종목 데이터 수집</li>
+<li>팩터 수익률 계산 (모멘텀, 가치, 퀄리티 등)</li>
+<li>Claude API로 분석 인사이트 요약 생성</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>면책사항
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>투자 전략</category>
+  <category>퀀트분석</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-strategy/</guid>
+  <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-strategy" medium="image"/>
+</item>
+<item>
+  <title>리서치 요약 | 2026.03.29</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-research/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="오늘의-리서치-요약" class="level2">
+<h2 class="anchored" data-anchor-id="오늘의-리서치-요약">오늘의 리서치 요약</h2>
+<p>리서치 리포트 데이터가 아직 연결되지 않았습니다.</p>
+<p><code>scripts/generate_post.py</code>의 <code>generate_research()</code> 함수에서 데이터 소스를 구현해주세요.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>구현 가이드
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>증권사 리포트 PDF 자동 수집 (이메일, 웹 크롤링 등)</li>
+<li>PDF 텍스트 추출 후 Claude API로 요약</li>
+<li>종목별 투자의견 변경 사항 정리</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>면책사항
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>리서치 요약</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-research/</guid>
+  <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-research" medium="image"/>
+</item>
+<item>
+  <title>일일 시장 리포트 | 2026.03.29 (일)</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-daily-report/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="주요-지수-현황" class="level2">
+<h2 class="anchored" data-anchor-id="주요-지수-현황">주요 지수 현황</h2>
+<div class="kpi-container">
+<div class="kpi-card">
+<p><span class="kpi-label">KOSPI</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">KOSDAQ</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">S&amp;P 500</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">원/달러</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="시장-요약" class="level2">
+<h2 class="anchored" data-anchor-id="시장-요약">시장 요약</h2>
+<p>시장 데이터가 아직 연결되지 않았습니다. <code>scripts/generate_post.py</code>에서 데이터 소스를 설정해주세요.</p>
+</section>
+<section id="섹터별-등락률" class="level2">
+<h2 class="anchored" data-anchor-id="섹터별-등락률">섹터별 등락률</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">섹터</th>
+<th style="text-align: center;">등락률</th>
+<th style="text-align: left;">비고</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: left;">데이터 연결 필요</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="주요-이벤트" class="level2">
+<h2 class="anchored" data-anchor-id="주요-이벤트">주요 이벤트</h2>
+<ul>
+<li>데이터 소스 연결 후 자동 생성됩니다.</li>
+</ul>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>일일 리포트</category>
+  <category>시장분석</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-daily-report/</guid>
+  <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-03-29-daily-report" medium="image"/>
+</item>
+</channel>
+</rss>

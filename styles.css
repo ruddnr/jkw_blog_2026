@@ -1,0 +1,460 @@
+/* ============================================
+   JKW 투자 인사이트 - 대시보드 스타일 테마
+   Bloomberg Terminal 영감의 다크 모드 디자인
+   ============================================ */
+
+/* === 폰트 임포트 === */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+/* === 기본 변수 === */
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-card: #1c2128;
+  --bg-hover: #252c35;
+  --border-color: #30363d;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent-blue: #58a6ff;
+  --accent-green: #3fb950;
+  --accent-red: #f85149;
+  --accent-orange: #d29922;
+  --accent-purple: #bc8cff;
+  --accent-cyan: #39d2c0;
+  --gradient-blue: linear-gradient(135deg, #58a6ff 0%, #bc8cff 100%);
+  --gradient-green: linear-gradient(135deg, #3fb950 0%, #39d2c0 100%);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --radius: 8px;
+  --radius-lg: 12px;
+}
+
+/* === 전체 바디 === */
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary);
+}
+
+/* === 코드 폰트 === */
+code, pre, .sourceCode {
+  font-family: 'JetBrains Mono', 'Consolas', monospace !important;
+}
+
+/* === 네비게이션 바 === */
+.navbar {
+  background: var(--bg-secondary) !important;
+  border-bottom: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+  background: var(--gradient-blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar .nav-link {
+  color: var(--text-secondary) !important;
+  font-weight: 500;
+  font-size: 0.88rem;
+  padding: 0.5rem 0.9rem !important;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--text-primary) !important;
+  background: var(--bg-hover);
+}
+
+/* === 메인 콘텐츠 영역 === */
+#quarto-content {
+  background: var(--bg-primary);
+}
+
+.page-columns {
+  max-width: 1200px;
+}
+
+/* === 블로그 홈 - 리스팅 카드 === */
+.quarto-listing {
+  margin-top: 1rem;
+}
+
+.quarto-grid-item {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--radius-lg) !important;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-card);
+}
+
+.quarto-grid-item:hover {
+  border-color: var(--accent-blue) !important;
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-3px);
+}
+
+.quarto-grid-item .card-body {
+  background: var(--bg-card) !important;
+  padding: 1.25rem !important;
+}
+
+.quarto-grid-item .card-title {
+  color: var(--text-primary) !important;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.quarto-grid-item .card-title a {
+  color: var(--text-primary) !important;
+  text-decoration: none;
+}
+
+.quarto-grid-item .card-title a:hover {
+  color: var(--accent-blue) !important;
+}
+
+.quarto-grid-item .card-text {
+  color: var(--text-secondary) !important;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.quarto-grid-item .listing-description {
+  color: var(--text-secondary) !important;
+}
+
+/* === 카테고리 배지 === */
+.quarto-grid-item .listing-category .listing-category-item,
+.quarto-category {
+  background: rgba(88, 166, 255, 0.15) !important;
+  color: var(--accent-blue) !important;
+  border: 1px solid rgba(88, 166, 255, 0.3) !important;
+  border-radius: 20px !important;
+  padding: 2px 10px !important;
+  font-size: 0.72rem !important;
+  font-weight: 500;
+  text-transform: none;
+}
+
+/* 카테고리별 색상 */
+.listing-category-item[data-bs-original-title*="일일"],
+.quarto-category[data-category*="일일"] {
+  background: rgba(63, 185, 80, 0.15) !important;
+  color: var(--accent-green) !important;
+  border-color: rgba(63, 185, 80, 0.3) !important;
+}
+
+.listing-category-item[data-bs-original-title*="투자"],
+.quarto-category[data-category*="투자"] {
+  background: rgba(188, 140, 255, 0.15) !important;
+  color: var(--accent-purple) !important;
+  border-color: rgba(188, 140, 255, 0.3) !important;
+}
+
+.listing-category-item[data-bs-original-title*="리서치"],
+.quarto-category[data-category*="리서치"] {
+  background: rgba(210, 153, 34, 0.15) !important;
+  color: var(--accent-orange) !important;
+  border-color: rgba(210, 153, 34, 0.3) !important;
+}
+
+/* === 포스트 본문 === */
+.quarto-title-banner {
+  background: var(--bg-secondary) !important;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 2rem;
+  padding: 2rem 0 !important;
+}
+
+h1.title {
+  font-weight: 900 !important;
+  font-size: 2rem !important;
+  background: var(--gradient-blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.quarto-title-meta {
+  color: var(--text-secondary);
+}
+
+/* === 헤딩 스타일 === */
+h1, h2, h3, h4, h5 {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+h2 {
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--border-color);
+  margin-top: 2rem;
+}
+
+h2::before {
+  content: "▎";
+  color: var(--accent-blue);
+  margin-right: 0.3rem;
+}
+
+/* === 테이블 (대시보드 스타일) === */
+table {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--radius) !important;
+  overflow: hidden;
+  width: 100%;
+}
+
+thead {
+  background: var(--bg-secondary) !important;
+}
+
+th {
+  color: var(--accent-cyan) !important;
+  font-weight: 600 !important;
+  font-size: 0.82rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--accent-blue) !important;
+  padding: 0.75rem 1rem !important;
+}
+
+td {
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 0.65rem 1rem !important;
+  font-size: 0.88rem;
+}
+
+tbody tr:hover {
+  background: var(--bg-hover) !important;
+}
+
+/* === 양수/음수 표시 (터미널 스타일) === */
+.positive, .up {
+  color: var(--accent-green) !important;
+  font-weight: 600;
+}
+
+.negative, .down {
+  color: var(--accent-red) !important;
+  font-weight: 600;
+}
+
+/* === 코드 블록 === */
+pre {
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--radius) !important;
+  padding: 1rem !important;
+}
+
+code {
+  color: var(--accent-cyan) !important;
+  font-size: 0.85rem;
+}
+
+div.sourceCode {
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--radius) !important;
+}
+
+/* === 인용 블록 (주요 인사이트 박스) === */
+blockquote {
+  background: rgba(88, 166, 255, 0.08) !important;
+  border-left: 4px solid var(--accent-blue) !important;
+  border-radius: 0 var(--radius) var(--radius) 0 !important;
+  padding: 1rem 1.25rem !important;
+  margin: 1.5rem 0;
+  color: var(--text-primary);
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* === 콜아웃 (Quarto callout) === */
+.callout {
+  border-radius: var(--radius) !important;
+  border: 1px solid var(--border-color) !important;
+  background: var(--bg-card) !important;
+}
+
+.callout-note {
+  border-left: 4px solid var(--accent-blue) !important;
+}
+
+.callout-tip {
+  border-left: 4px solid var(--accent-green) !important;
+}
+
+.callout-warning {
+  border-left: 4px solid var(--accent-orange) !important;
+}
+
+.callout-important {
+  border-left: 4px solid var(--accent-red) !important;
+}
+
+/* === KPI 카드 스타일 === */
+.kpi-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.kpi-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.kpi-card:hover {
+  border-color: var(--accent-blue);
+  box-shadow: var(--shadow-hover);
+}
+
+.kpi-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.kpi-value {
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-primary);
+}
+
+.kpi-change {
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-top: 0.25rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.kpi-change.positive { color: var(--accent-green); }
+.kpi-change.negative { color: var(--accent-red); }
+
+/* === 섹션 구분선 === */
+hr {
+  border-color: var(--border-color) !important;
+  opacity: 0.5;
+}
+
+/* === 검색 박스 === */
+.aa-input, .aa-form {
+  background: var(--bg-card) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+/* === 사이드바 (TOC) === */
+#TOC, .sidebar {
+  background: transparent;
+}
+
+#TOC a, .sidebar a {
+  color: var(--text-secondary) !important;
+  font-size: 0.85rem;
+}
+
+#TOC a:hover, #TOC a.active,
+.sidebar a:hover, .sidebar a.active {
+  color: var(--accent-blue) !important;
+}
+
+/* === 푸터 === */
+.nav-footer {
+  background: var(--bg-secondary) !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+/* === 링크 === */
+a {
+  color: var(--accent-blue);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-cyan);
+}
+
+/* === 리스팅 날짜 === */
+.listing-date {
+  color: var(--text-muted) !important;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem !important;
+}
+
+/* === 반응형 === */
+@media (max-width: 768px) {
+  .kpi-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h1.title {
+    font-size: 1.5rem !important;
+  }
+
+  .quarto-grid-item .card-body {
+    padding: 1rem !important;
+  }
+}
+
+/* === 스크롤바 커스텀 === */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* === 애니메이션 === */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.quarto-grid-item {
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* === 마크다운 이미지 === */
+.quarto-figure img,
+article img {
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+}
