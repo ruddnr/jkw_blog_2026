@@ -10,7 +10,246 @@
 <atom:link href="https://ruddnr.github.io/jkw_blog_2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>AI 퀀트 운용본부의 일일 시장 분석과 투자 전략</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Tue, 07 Apr 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 08 Apr 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>투자 전략 | 주간 퀀트 시그널 (2026.04.08)</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-strategy/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="요약" class="level2">
+<h2 class="anchored" data-anchor-id="요약">요약</h2>
+<p>투자 전략 데이터가 아직 연결되지 않았습니다.</p>
+<p><code>scripts/generate_post.py</code>의 <code>generate_strategy()</code> 함수에서 분석 로직을 구현해주세요.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>구현 가이드
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><code>pykrx</code> 또는 자체 DB에서 종목 데이터 수집</li>
+<li>팩터 수익률 계산 (모멘텀, 가치, 퀄리티 등)</li>
+<li>Claude API로 분석 인사이트 요약 생성</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>면책사항
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>투자 전략</category>
+  <category>퀀트분석</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-strategy/</guid>
+  <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-strategy" medium="image"/>
+</item>
+<item>
+  <title>리서치 요약 | 2026.04.08</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-research/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="오늘의-리서치-요약" class="level2">
+<h2 class="anchored" data-anchor-id="오늘의-리서치-요약">오늘의 리서치 요약</h2>
+<p>리서치 리포트 데이터가 아직 연결되지 않았습니다.</p>
+<p><code>scripts/generate_post.py</code>의 <code>generate_research()</code> 함수에서 데이터 소스를 구현해주세요.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>구현 가이드
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>증권사 리포트 PDF 자동 수집 (이메일, 웹 크롤링 등)</li>
+<li>PDF 텍스트 추출 후 Claude API로 요약</li>
+<li>종목별 투자의견 변경 사항 정리</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>면책사항
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>리서치 요약</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-research/</guid>
+  <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-research" medium="image"/>
+</item>
+<item>
+  <title>일일 시장 리포트 | 2026.04.08 (수)</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-daily-report/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="주요-지수-현황" class="level2">
+<h2 class="anchored" data-anchor-id="주요-지수-현황">주요 지수 현황</h2>
+<div class="kpi-container">
+<div class="kpi-card">
+<p><span class="kpi-label">KOSPI</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">KOSDAQ</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">S&amp;P 500</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+<div class="kpi-card">
+<p><span class="kpi-label">원/달러</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="시장-요약" class="level2">
+<h2 class="anchored" data-anchor-id="시장-요약">시장 요약</h2>
+<p>시장 데이터가 아직 연결되지 않았습니다. <code>scripts/generate_post.py</code>에서 데이터 소스를 설정해주세요.</p>
+</section>
+<section id="섹터별-등락률" class="level2">
+<h2 class="anchored" data-anchor-id="섹터별-등락률">섹터별 등락률</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">섹터</th>
+<th style="text-align: center;">등락률</th>
+<th style="text-align: left;">비고</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: left;">데이터 연결 필요</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="주요-이벤트" class="level2">
+<h2 class="anchored" data-anchor-id="주요-이벤트">주요 이벤트</h2>
+<ul>
+<li>데이터 소스 연결 후 자동 생성됩니다.</li>
+</ul>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>일일 리포트</category>
+  <category>시장분석</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-daily-report/</guid>
+  <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-daily-report" medium="image"/>
+</item>
+<item>
+  <title>텔레그램 요약 | 2026.04.08</title>
+  <dc:creator>AI 퀀트 운용본부</dc:creator>
+  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-telegram/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="텔레그램-채널-요약" class="level2">
+<h2 class="anchored" data-anchor-id="텔레그램-채널-요약">텔레그램 채널 요약</h2>
+<p>텔레그램 데이터가 아직 연결되지 않았습니다.</p>
+<p><code>scripts/generate_post.py</code>의 <code>generate_telegram()</code> 함수에서 텔레그램 봇을 설정해주세요.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>구현 가이드
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><a href="https://t.me/botfather">BotFather</a>에서 봇 생성 → 토큰 발급</li>
+<li>GitHub Secrets에 <code>TELEGRAM_BOT_TOKEN</code>, <code>TELEGRAM_CHANNEL_IDS</code> 저장</li>
+<li><code>telethon</code> 또는 <code>python-telegram-bot</code>으로 메시지 수집</li>
+<li>Claude API로 요약 생성</li>
+</ol>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>면책사항
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>텔레그램 요약</category>
+  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-telegram/</guid>
+  <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-08-telegram" medium="image"/>
+</item>
 <item>
   <title>일일 시장 리포트 | 2026.04.07 (화)</title>
   <dc:creator>AI 퀀트 운용본부</dc:creator>
@@ -966,245 +1205,6 @@
   <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-02-research/</guid>
   <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
   <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-02-research" medium="image"/>
-</item>
-<item>
-  <title>텔레그램 요약 | 2026.04.01</title>
-  <dc:creator>AI 퀀트 운용본부</dc:creator>
-  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-telegram/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="텔레그램-채널-요약" class="level2">
-<h2 class="anchored" data-anchor-id="텔레그램-채널-요약">텔레그램 채널 요약</h2>
-<p>텔레그램 데이터가 아직 연결되지 않았습니다.</p>
-<p><code>scripts/generate_post.py</code>의 <code>generate_telegram()</code> 함수에서 텔레그램 봇을 설정해주세요.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>구현 가이드
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><a href="https://t.me/botfather">BotFather</a>에서 봇 생성 → 토큰 발급</li>
-<li>GitHub Secrets에 <code>TELEGRAM_BOT_TOKEN</code>, <code>TELEGRAM_CHANNEL_IDS</code> 저장</li>
-<li><code>telethon</code> 또는 <code>python-telegram-bot</code>으로 메시지 수집</li>
-<li>Claude API로 요약 생성</li>
-</ol>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>면책사항
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
-</div>
-</div>
-
-
-<!-- -->
-
-</section>
-
- ]]></description>
-  <category>텔레그램 요약</category>
-  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-telegram/</guid>
-  <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-telegram" medium="image"/>
-</item>
-<item>
-  <title>투자 전략 | 주간 퀀트 시그널 (2026.04.01)</title>
-  <dc:creator>AI 퀀트 운용본부</dc:creator>
-  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-strategy/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="요약" class="level2">
-<h2 class="anchored" data-anchor-id="요약">요약</h2>
-<p>투자 전략 데이터가 아직 연결되지 않았습니다.</p>
-<p><code>scripts/generate_post.py</code>의 <code>generate_strategy()</code> 함수에서 분석 로직을 구현해주세요.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>구현 가이드
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><code>pykrx</code> 또는 자체 DB에서 종목 데이터 수집</li>
-<li>팩터 수익률 계산 (모멘텀, 가치, 퀄리티 등)</li>
-<li>Claude API로 분석 인사이트 요약 생성</li>
-</ul>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>면책사항
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
-</div>
-</div>
-
-
-<!-- -->
-
-</section>
-
- ]]></description>
-  <category>투자 전략</category>
-  <category>퀀트분석</category>
-  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-strategy/</guid>
-  <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-strategy" medium="image"/>
-</item>
-<item>
-  <title>일일 시장 리포트 | 2026.04.01 (수)</title>
-  <dc:creator>AI 퀀트 운용본부</dc:creator>
-  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-daily-report/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="주요-지수-현황" class="level2">
-<h2 class="anchored" data-anchor-id="주요-지수-현황">주요 지수 현황</h2>
-<div class="kpi-container">
-<div class="kpi-card">
-<p><span class="kpi-label">KOSPI</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
-</div>
-<div class="kpi-card">
-<p><span class="kpi-label">KOSDAQ</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
-</div>
-<div class="kpi-card">
-<p><span class="kpi-label">S&amp;P 500</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
-</div>
-<div class="kpi-card">
-<p><span class="kpi-label">원/달러</span> <span class="kpi-value">—</span> <span class="kpi-change">데이터 없음</span></p>
-</div>
-</div>
-<hr>
-</section>
-<section id="시장-요약" class="level2">
-<h2 class="anchored" data-anchor-id="시장-요약">시장 요약</h2>
-<p>시장 데이터가 아직 연결되지 않았습니다. <code>scripts/generate_post.py</code>에서 데이터 소스를 설정해주세요.</p>
-</section>
-<section id="섹터별-등락률" class="level2">
-<h2 class="anchored" data-anchor-id="섹터별-등락률">섹터별 등락률</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">섹터</th>
-<th style="text-align: center;">등락률</th>
-<th style="text-align: left;">비고</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: left;">데이터 연결 필요</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="주요-이벤트" class="level2">
-<h2 class="anchored" data-anchor-id="주요-이벤트">주요 이벤트</h2>
-<ul>
-<li>데이터 소스 연결 후 자동 생성됩니다.</li>
-</ul>
-
-
-<!-- -->
-
-</section>
-
- ]]></description>
-  <category>일일 리포트</category>
-  <category>시장분석</category>
-  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-daily-report/</guid>
-  <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-daily-report" medium="image"/>
-</item>
-<item>
-  <title>리서치 요약 | 2026.04.01</title>
-  <dc:creator>AI 퀀트 운용본부</dc:creator>
-  <link>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-research/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="오늘의-리서치-요약" class="level2">
-<h2 class="anchored" data-anchor-id="오늘의-리서치-요약">오늘의 리서치 요약</h2>
-<p>리서치 리포트 데이터가 아직 연결되지 않았습니다.</p>
-<p><code>scripts/generate_post.py</code>의 <code>generate_research()</code> 함수에서 데이터 소스를 구현해주세요.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>구현 가이드
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>증권사 리포트 PDF 자동 수집 (이메일, 웹 크롤링 등)</li>
-<li>PDF 텍스트 추출 후 Claude API로 요약</li>
-<li>종목별 투자의견 변경 사항 정리</li>
-</ul>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>면책사항
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</p>
-</div>
-</div>
-
-
-<!-- -->
-
-</section>
-
- ]]></description>
-  <category>리서치 요약</category>
-  <guid>https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-research/</guid>
-  <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://ruddnr.github.io/jkw_blog_2026/posts/2026-04-01-research" medium="image"/>
 </item>
 </channel>
 </rss>
