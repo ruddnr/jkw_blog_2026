@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="AI 퀀트 운용본부">
-<meta name="dcterms.date" content="2026-04-01">
-<meta name="description" content="투자 관련 텔레그램 채널 주요 소식 요약">
+<meta name="dcterms.date" content="2026-04-10">
+<meta name="description" content="퀀트 팩터 기반 주간 투자 전략 업데이트">
 
-<title>텔레그램 요약 | 2026.04.01 – JKW 투자 인사이트</title>
+<title>투자 전략 | 주간 퀀트 시그널 (2026.04.10) – JKW 투자 인사이트</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -331,7 +331,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#텔레그램-채널-요약" id="toc-텔레그램-채널-요약" class="nav-link active" data-scroll-target="#텔레그램-채널-요약">텔레그램 채널 요약</a></li>
+  <li><a href="#요약" id="toc-요약" class="nav-link active" data-scroll-target="#요약">요약</a></li>
   </ul>
 </nav>
     </div>
@@ -341,15 +341,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">텔레그램 요약 | 2026.04.01</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">투자 전략 | 주간 퀀트 시그널 (2026.04.10)</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
   <div class="quarto-categories">
-    <div class="quarto-category">텔레그램 요약</div>
+    <div class="quarto-category">투자 전략</div>
+    <div class="quarto-category">퀀트분석</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    투자 관련 텔레그램 채널 주요 소식 요약
+    퀀트 팩터 기반 주간 투자 전략 업데이트
   </div>
 </div>
 
@@ -366,7 +367,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 1, 2026</p>
+      <p class="date">April 10, 2026</p>
     </div>
   </div>
   
@@ -378,10 +379,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="텔레그램-채널-요약" class="level2">
-<h2 class="anchored" data-anchor-id="텔레그램-채널-요약">텔레그램 채널 요약</h2>
-<p>텔레그램 데이터가 아직 연결되지 않았습니다.</p>
-<p><code>scripts/generate_post.py</code>의 <code>generate_telegram()</code> 함수에서 텔레그램 봇을 설정해주세요.</p>
+<section id="요약" class="level2">
+<h2 class="anchored" data-anchor-id="요약">요약</h2>
+<p>투자 전략 데이터가 아직 연결되지 않았습니다.</p>
+<p><code>scripts/generate_post.py</code>의 <code>generate_strategy()</code> 함수에서 분석 로직을 구현해주세요.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -392,12 +393,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ol type="1">
-<li><a href="https://t.me/botfather">BotFather</a>에서 봇 생성 → 토큰 발급</li>
-<li>GitHub Secrets에 <code>TELEGRAM_BOT_TOKEN</code>, <code>TELEGRAM_CHANNEL_IDS</code> 저장</li>
-<li><code>telethon</code> 또는 <code>python-telegram-bot</code>으로 메시지 수집</li>
-<li>Claude API로 요약 생성</li>
-</ol>
+<ul>
+<li><code>pykrx</code> 또는 자체 DB에서 종목 데이터 수집</li>
+<li>팩터 수익률 계산 (모멘텀, 가치, 퀄리티 등)</li>
+<li>Claude API로 분석 인사이트 요약 생성</li>
+</ul>
 </div>
 </div>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -885,35 +885,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "텔레그램 요약 | 2026.04.01"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "투자 관련 텔레그램 채널 주요 소식 요약"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "투자 전략 | 주간 퀀트 시그널 (2026.04.10)"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "퀀트 팩터 기반 주간 투자 전략 업데이트"</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "AI 퀀트 운용본부"</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2026-04-01"</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> [텔레그램 요약]</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2026-04-10"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> [투자 전략, 퀀트분석]</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">image:</span><span class="co"> ""</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## 텔레그램 채널 요약</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## 요약</span></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>텔레그램 데이터가 아직 연결되지 않았습니다.</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>투자 전략 데이터가 아직 연결되지 않았습니다.</span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="in">`scripts/generate_post.py`</span>의 <span class="in">`generate_telegram()`</span> 함수에서 텔레그램 봇을 설정해주세요.</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="in">`scripts/generate_post.py`</span>의 <span class="in">`generate_strategy()`</span> 함수에서 분석 로직을 구현해주세요.</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>::: {.callout-note}</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### 구현 가이드</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span><span class="co">[</span><span class="ot">BotFather</span><span class="co">](https://t.me/botfather)</span>에서 봇 생성 → 토큰 발급</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>GitHub Secrets에 <span class="in">`TELEGRAM_BOT_TOKEN`</span>, <span class="in">`TELEGRAM_CHANNEL_IDS`</span> 저장</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span><span class="in">`telethon`</span> 또는 <span class="in">`python-telegram-bot`</span>으로 메시지 수집</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Claude API로 요약 생성</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>::: {.callout-important}</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">### 면책사항</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`pykrx`</span> 또는 자체 DB에서 종목 데이터 수집</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>팩터 수익률 계산 (모멘텀, 가치, 퀄리티 등)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Claude API로 분석 인사이트 요약 생성</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>::: {.callout-important}</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">### 면책사항</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
