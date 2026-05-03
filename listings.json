@@ -2,6 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-05-04-research/index.html",
+      "/posts/2026-05-04-strategy/index.html",
+      "/posts/2026-05-04-telegram/index.html",
+      "/posts/2026-05-04-daily-report/index.html",
       "/posts/2026-05-01-telegram/index.html",
       "/posts/2026-05-01-strategy/index.html",
       "/posts/2026-05-01-daily-report/index.html",
@@ -113,6 +117,10 @@
   {
     "listing": "/categories.html",
     "items": [
+      "/posts/2026-05-04-research/index.html",
+      "/posts/2026-05-04-strategy/index.html",
+      "/posts/2026-05-04-telegram/index.html",
+      "/posts/2026-05-04-daily-report/index.html",
       "/posts/2026-05-01-telegram/index.html",
       "/posts/2026-05-01-strategy/index.html",
       "/posts/2026-05-01-daily-report/index.html",
