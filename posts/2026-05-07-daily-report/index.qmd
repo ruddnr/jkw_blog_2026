@@ -1,0 +1,55 @@
+---
+title: "일일 시장 리포트 | 2026.05.07 (목)"
+description: "일일 시장 동향 리포트 - 주요 지수, 섹터 동향, 수급 분석"
+author: "AI 퀀트 운용본부"
+date: "2026-05-07"
+categories: [일일 리포트, 시장분석]
+image: ""
+format:
+  html:
+    code-fold: true
+---
+
+## 주요 지수 현황
+
+::: {.kpi-container}
+::: {.kpi-card}
+[KOSPI]{.kpi-label}
+[—]{.kpi-value}
+[데이터 없음]{.kpi-change}
+:::
+
+::: {.kpi-card}
+[KOSDAQ]{.kpi-label}
+[—]{.kpi-value}
+[데이터 없음]{.kpi-change}
+:::
+
+::: {.kpi-card}
+[S&P 500]{.kpi-label}
+[—]{.kpi-value}
+[데이터 없음]{.kpi-change}
+:::
+
+::: {.kpi-card}
+[원/달러]{.kpi-label}
+[—]{.kpi-value}
+[데이터 없음]{.kpi-change}
+:::
+:::
+
+---
+
+## 시장 요약
+
+시장 데이터가 아직 연결되지 않았습니다. `scripts/generate_post.py`에서 데이터 소스를 설정해주세요.
+
+## 섹터별 등락률
+
+| 섹터 | 등락률 | 비고 |
+|:-----|:------:|:-----|
+| — | — | 데이터 연결 필요 |
+
+## 주요 이벤트
+
+- 데이터 소스 연결 후 자동 생성됩니다.
