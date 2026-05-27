@@ -1,0 +1,30 @@
+---
+title: "텔레그램 요약 | 2026.05.28"
+description: "투자 관련 텔레그램 채널 주요 소식 요약"
+author: "AI 퀀트 운용본부"
+date: "2026-05-28"
+categories: [텔레그램 요약]
+image: ""
+format:
+  html:
+    code-fold: true
+---
+
+## 텔레그램 채널 요약
+
+텔레그램 데이터가 아직 연결되지 않았습니다.
+
+`scripts/generate_post.py`의 `generate_telegram()` 함수에서 텔레그램 봇을 설정해주세요.
+
+::: {.callout-note}
+### 구현 가이드
+1. [BotFather](https://t.me/botfather)에서 봇 생성 → 토큰 발급
+2. GitHub Secrets에 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHANNEL_IDS` 저장
+3. `telethon` 또는 `python-telegram-bot`으로 메시지 수집
+4. Claude API로 요약 생성
+:::
+
+::: {.callout-important}
+### 면책사항
+본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.
+:::
