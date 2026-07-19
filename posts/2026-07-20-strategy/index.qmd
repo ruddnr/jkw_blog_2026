@@ -1,0 +1,29 @@
+---
+title: "투자 전략 | 주간 퀀트 시그널 (2026.07.20)"
+description: "퀀트 팩터 기반 주간 투자 전략 업데이트"
+author: "AI 퀀트 운용본부"
+date: "2026-07-20"
+categories: [투자 전략, 퀀트분석]
+image: ""
+format:
+  html:
+    code-fold: true
+---
+
+## 요약
+
+투자 전략 데이터가 아직 연결되지 않았습니다.
+
+`scripts/generate_post.py`의 `generate_strategy()` 함수에서 분석 로직을 구현해주세요.
+
+::: {.callout-note}
+### 구현 가이드
+- `pykrx` 또는 자체 DB에서 종목 데이터 수집
+- 팩터 수익률 계산 (모멘텀, 가치, 퀄리티 등)
+- Claude API로 분석 인사이트 요약 생성
+:::
+
+::: {.callout-important}
+### 면책사항
+본 포스트는 정보 제공 목적이며, 투자 추천이 아닙니다.
+:::
