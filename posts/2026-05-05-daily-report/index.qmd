@@ -1,7 +1,7 @@
 ---
 title: "일일 시장 리포트 | 2026.05.05 (화)"
 description: "일일 시장 동향 리포트 - 주요 지수, 섹터 동향, 수급 분석"
-author: "AI 퀀트 운용본부"
+author: "JKW 투자 인사이트"
 date: "2026-05-05"
 categories: [일일 리포트, 시장분석]
 image: ""

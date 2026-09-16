@@ -1,6 +1,6 @@
 ---
 title: "JKW 투자 인사이트"
-subtitle: "AI 퀀트 운용본부의 일일 시장 분석, 투자 전략, 리서치 요약"
+subtitle: "일일 시장 분석, 투자 전략, 리서치 요약"
 listing:
   contents: posts
   sort: "date desc"

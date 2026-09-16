@@ -69,7 +69,7 @@ def generate_daily_report():
     content = f"""---
 title: "일일 시장 리포트 | {DATE_DISPLAY} ({WEEKDAY_KR})"
 description: "일일 시장 동향 리포트 - 주요 지수, 섹터 동향, 수급 분석"
-author: "AI 퀀트 운용본부"
+author: "JKW 투자 인사이트"
 date: "{DATE_STR}"
 categories: [일일 리포트, 시장분석]
 image: ""
@@ -146,7 +146,7 @@ def generate_strategy():
     content = f"""---
 title: "투자 전략 | 주간 퀀트 시그널 ({DATE_DISPLAY})"
 description: "퀀트 팩터 기반 주간 투자 전략 업데이트"
-author: "AI 퀀트 운용본부"
+author: "JKW 투자 인사이트"
 date: "{DATE_STR}"
 categories: [투자 전략, 퀀트분석]
 image: ""
@@ -198,7 +198,7 @@ def generate_research():
     content = f"""---
 title: "리서치 요약 | {DATE_DISPLAY}"
 description: "주요 증권사 리서치 리포트 핵심 요약"
-author: "AI 퀀트 운용본부"
+author: "JKW 투자 인사이트"
 date: "{DATE_STR}"
 categories: [리서치 요약]
 image: ""
@@ -251,7 +251,7 @@ def generate_telegram():
     content = f"""---
 title: "텔레그램 요약 | {DATE_DISPLAY}"
 description: "투자 관련 텔레그램 채널 주요 소식 요약"
-author: "AI 퀀트 운용본부"
+author: "JKW 투자 인사이트"
 date: "{DATE_STR}"
 categories: [텔레그램 요약]
 image: ""

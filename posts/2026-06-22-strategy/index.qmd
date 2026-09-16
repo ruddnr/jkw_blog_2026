@@ -1,7 +1,7 @@
 ---
 title: "투자 전략 | 주간 퀀트 시그널 (2026.06.22)"
 description: "퀀트 팩터 기반 주간 투자 전략 업데이트"
-author: "AI 퀀트 운용본부"
+author: "JKW 투자 인사이트"
 date: "2026-06-22"
 categories: [투자 전략, 퀀트분석]
 image: ""
