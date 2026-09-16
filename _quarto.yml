@@ -4,7 +4,7 @@ project:
 
 website:
   title: "JKW 투자 인사이트"
-  description: "AI 퀀트 운용본부의 일일 시장 분석과 투자 전략"
+  description: "일일 시장 분석과 투자 전략"
   site-url: https://ruddnr.github.io/jkw_blog_2026
 
   navbar:
@@ -28,7 +28,7 @@ website:
 
   page-footer:
     left: |
-      &copy; 2026 JKW 투자 인사이트 · AI 퀀트 운용본부
+      &copy; 2026 JKW 투자 인사이트
     right: |
       Powered by [Quarto](https://quarto.org)
     background: "#0d1117"

@@ -1,7 +1,7 @@
 ---
 title: "텔레그램 요약 | 2026.04.17"
 description: "투자 관련 텔레그램 채널 주요 소식 요약"
-author: "AI 퀀트 운용본부"
+author: "JKW 투자 인사이트"
 date: "2026-04-17"
 categories: [텔레그램 요약]
 image: ""
